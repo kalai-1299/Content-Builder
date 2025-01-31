@@ -1,0 +1,127 @@
+.canvas {
+  width: 80rem;
+  height: 45rem;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  background-size: 40px 40px;
+  background-position: 10px 10px;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      #e4e9f3 25%,
+      #e4e9f3 26%,
+      transparent 27%,
+      transparent 74%,
+      #e4e9f3 75%,
+      #e4e9f3 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      #e4e9f3 25%,
+      #e4e9f3 26%,
+      transparent 27%,
+      transparent 74%,
+      #e4e9f3 75%,
+      #e4e9f3 76%,
+      transparent 77%,
+      transparent
+    );
+}
+
+.left_box {
+  width: 20rem;
+  height: 45rem;
+  /* border: 1px solid; */
+  background-color: #9bcfe7;
+  /* height: "screen"; */
+}
+.up_box {
+  width: "screen";
+  /* height: rem; */
+  /* border: black 1px outset; */
+  background-color: #9bcfe7;
+}
+.right_box {
+  width: 23rem;
+  max-height: 45rem;
+  overflow-y: scroll;
+  /* border: black 1px solid; */
+  background-color: #9bcfe7;
+}
+.top_box {
+  display: flex;
+  /* height: 30rem; */
+}
+.bottom_box {
+  width: "screen";
+  min-height: 15rem;
+  height: "screen";
+  max-height: 25rem;
+  overflow-y: scroll;
+  /* border: black 1px solid; */
+  background-color: #9bcfe7;
+}
+.btn_field {
+  margin-left: 60px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.text {
+  text-align: center;
+}
+.left_box .innerbox1 .btn_input {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #e6f3f9;
+  color: black;
+  width: 75%;
+  margin-left: 25px;
+  border: none;
+  /* border-radius: 10px; */
+}
+
+.btn_input {
+  margin-left: 3px;
+}
+
+.right_box .innerbox1 .btn_field {
+  background-color: #2a25d6;
+  padding: 2px 62px 2px 62px;
+  color: green;
+  border-radius: 5px;
+  margin-left: 35px;
+}
+.btn_GetCode {
+  margin-top: 10px;
+  padding: 4px;
+  background-color: #e6f3f9;
+  color: black;
+  border-radius: 2px;
+  border: none;
+  margin-left: 5px;
+  /* margin-right: 2rem; */
+}
+.right_box .innerbox1 input {
+  /* border-radius: 6px; */
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.modalcontainer {
+  /* position: absolute; */
+  z-index: 20;
+}
+/* .shift {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.shift2 {
+  margin-bottom: 10px;
+  padding: 3px 55px 3px 55px;
+} */
